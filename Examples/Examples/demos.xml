@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  PARROT Minidrone Examples   -->
+<!-- Copyright 2017 The MathWorks, Inc. -->
+<demos>
+    <name>Simulink Support Package for PARROT Minidrones</name>
+    <type>simulink</type>
+    <icon>HelpIcon.DEMOS</icon>
+    <description isCdata="no">
+        <p>
+            Simulink&#8482; supports C code-generation for PARROT&#174; Minidrones.
+            With this capability, you can deploy algorithms on PARROT&#174; Minidrones from Simulink&#8482; models. 
+        </p>
+    </description>
+    <website>
+        <a href="https://www.mathworks.com/products/simulink">Product page at mathworks.com</a>
+    </website>
+    <demosection>
+        <label>Tutorials</label>
+        <demoitem>
+            <label>Getting Started with Simulink Support Package for PARROT Minidrones</label>
+            <dependency>Simulink</dependency>
+            <type>model</type>
+            <file>html/parrot_gettingstarted.html</file>
+        </demoitem>
+        <demoitem>
+            <label>Communicating with PARROT Minidrone</label>
+            <dependency>Simulink</dependency>
+            <dependency>Instrument Control Toolbox</dependency>
+            <type>model</type>
+            <file>html/parrot_communication.html</file>
+        </demoitem>
+        <demoitem>
+            <label>Code Verification and Validation with External Mode</label>
+            <dependency>Simulink</dependency>
+            <dependency>Stateflow</dependency>
+            <type>model</type>
+            <file>html/parrot_external_mode.html</file>
+        </demoitem>
+    </demosection>
+</demos>
